@@ -12,31 +12,32 @@
     tools:context="com.londonappbrewery.iampoor.MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/text_i_am"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="95dp"
         android:layout_centerVertical="false"
+        android:layout_marginLeft="75sp"
         android:layout_marginTop="50sp"
         android:fontFamily="sans-serif-medium"
         android:text="@string/title"
         android:textColor="@color/black"
-        android:textSize="50sp"
+        android:textSize="50sp"/>
+
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/text_poor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/title2"
-        android:textStyle="bold"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:textColor="@color/black"
+        android:layout_marginLeft="185sp"
         android:layout_marginTop="50sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/title2"
+        android:textColor="@color/black"
         android:textSize="50sp"
-        android:layout_marginLeft="205sp"
-
+        android:textStyle="bold"/>
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/image_coal"
         android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_height="wrap_content"
         android:layout_marginTop="130sp"
         android:rotation="110"
